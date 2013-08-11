@@ -57,10 +57,10 @@ public class Animal {
         this.tamaño = tamaño;
     }
 
-    void haceRuido(){
-        System.out.println("rugir");
+    void hacerRuido{
+    
     }
-                
+            
             
   
 
