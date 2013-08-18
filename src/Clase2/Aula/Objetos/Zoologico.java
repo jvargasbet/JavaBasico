@@ -9,6 +9,13 @@ public class Zoologico {
     public static void main(String[] args) {
       
       Zoologico.doHerencia();
+      
+      //Tigre tigreJorge = new Tigre("Jorge");
+      //Tigre tigreJose = new Tigre("Jorge");
+        
+      //System.out.println(tigreJorge.equals(tigreJose));
+		//retorna true
+
         
     }
     
@@ -26,7 +33,7 @@ public class Zoologico {
         tiger.hacerRuido(true, "Se canso de programar");
         
         Lobo lobo = new Lobo();
-        lobo.haceRuido();
+     
         lobo.setNumeroPatas(2);
         System.out.println(lobo.getNumeroPatas());
         

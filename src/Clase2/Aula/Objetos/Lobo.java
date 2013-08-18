@@ -5,6 +5,7 @@
 package Clase2.Aula.Objetos;
 
 public class Lobo extends Animal{
+    private String quimas;
 
     
     void hacerRuido() {
@@ -33,7 +34,7 @@ public class Lobo extends Animal{
             System.out.println("El estado: " + quimas  );
         }
         
-        String Palabra[5][2];
+       // String Palabra[5][2];
         
         
                 

@@ -22,5 +22,15 @@ public class Tigre extends Animal{
         System.out.println("Responder " + palabra);
     } 
     
+
+    @Override
+    public boolean equals(Object obj) {
+
+        if (obj instanceof Tigre) {
+            return ((Tigre) obj).getNombre().equals(this.getNombre());
+        }
+        return false;
+
+    }
     
 }
